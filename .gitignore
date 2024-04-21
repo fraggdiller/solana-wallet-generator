@@ -1,0 +1,13 @@
+node_modules/
+.env
+*.log
+*.lock
+.DS_STORE
+.idea
+*.txt
+__test__
+config.ts
+db.json
+data/
+*.xlsx
+src/dev.ts
