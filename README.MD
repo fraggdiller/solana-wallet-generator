@@ -15,42 +15,30 @@ npm i
 
 To generate wallets you can run the following command in terminal
 ```
-npm run generate 10
+npm start generate 10
 ```
 
-It runs wallet generator and saves generated data in `./data/mnemonics.txt`, `./data/privateKeys.txt`, `./data/addresses.txt`
+It runs wallet generator and saves generated data in `./data/solana-wallets.xlsx`
 
 ## Getting data of pregenerated wallets
 You can get all wallet data from mnemonics and private keys. You should load your mnemonics to `./data/mnemonics.txt` or `./data/privateKeys.txt` and run
 ```
-npm run data mnemo
+npm start get mnemo
 ```
 or
 ```
-npm run data pk
+npm start get pk
 ```
-
-
-## Saving to files
-
-Generated wallets are saved in several files:
-
-- addresses.txt: a text file (.txt) containing a list of addresses.
-- privateKeys.txt: a text file (.txt) containing a list of private keys.
-- mnemonics: a text file (.txt) containing a list of mnemonics.
-
-## Deploying wallets
-
 
 ## Conclusion
 ```
 git clone https://github.com/fraggdiller/solana-wallet-generator.git
 cd solana-wallet-generator
 npm i
-npm run generate 10
-npm run data mnemo
+npm start generate 10
+npm start get mnemo
 ```
 
 ### Support / Qs
 
-`Telegram:` https://t.me/retrodropTools | https://t.me/fraggdiller
+`Telegram:` https://t.me/fraggdiller
